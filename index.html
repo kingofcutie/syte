@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>  <!--Мета-теги, подключение шрифтов и стилей-->
+        <meta charset="UTF-8">
+        <title>Гвоздика</title>
+        <meta name="viewport" content="width=device-width">
+        <meta name="keywords" content="Цветы, Гвоздика, Букеты, Доставка цветов">
+        <meta name="description" content="Интернет-магазин, занимающийся доставкой цветов">
+        <meta name="author" content="Victoria Vasilevskaya">
+        <link rel="icon" href="img/icon.png"> 
+        <link rel="stylesheet" href="css/1.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body> 
+        <div class="page-head"> <!--Шапка сайта-->
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top-inner">
+                        <div class="loc">
+                            <img class="map-pin" src="img/svg/map-pin.svg" alt="">
+                            <span>Минск</span>
+                            <img class="arr" src="img/svg/chevron-down.svg" alt="">
+                            
+                        </div>
+                        <nav class="nav">
+                            <ul class="nav-menu">
+                                <li>
+                                    <a href="#" class="with-ar">
+                                        О магазине
+                                        <img class="vyp" src="img/svg/vyp.svg" alt="">
+                                    </a>
+                                    <ul class="sub-nav-menu">
+                                        <li><a href="#">Организациям</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="with-ar">
+                                        Доставка
+                                        <img class="vyp" src="img/svg/vyp.svg" alt="">
+                                    </a>
+                                    <ul class="sub-nav-menu">
+                                        <li><a href="#">Оплата</a></li>
+                                        <li><a href="#">Гарантии</a></li>
+                                        <li><a href="#">Возврат</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Блог</a></li>
+                                <li><a href="#">Отзывы</a></li>
+                                <li>
+                                    <a href="#" class="with-ar">
+                                        Контакты
+                                        <img class="vyp" src="img/svg/vyp.svg" alt="">
+                                    </a>
+                                    <ul class="sub-nav-menu">
+                                        <li><a href="#">Помощь</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="dostavka">
+                            <span class="titl">Доставка</span>  
+                            <span class="time">
+                                    Пн-Пт 8.00 - 22.00<br>
+                                    Сб- Вс 10.00 - 22.00
+                            </span>
+                        </div>
+                        <div class="social">
+                            <a href="#"><img src="img/svg/iconinstagram.svg" alt="Instagram" title = "Перейти в Instagram"></a>
+                            <a href="#"><img src="img/svg/iconvk.svg" alt="VK" title = "Перейти в VK"></a>
+                            <a href="#"><img src="img/svg/icontg.svg" alt="Telegram" title = "Перейти в Telegram"></a>
+                            <a href="#"><img src="img/svg/iconwhatsapp.svg" alt="Whatsapp" title = "Перейти в Whatsapp"></a>
+                        </div>
+                        <div class="header-btn" title = "Для оптовых клиентов">
+                            Оптовым клиентам
+                        </div>
+                        <div class="lang">
+                            <span>RU</span>
+                            <img class="arr" src="img/svg/chevron-down.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="header-top-inner">
+                        <div class="header-logo">
+                            <a href="#"><img src="img/svg/logo.svg" alt="Логотип" title="Перейти на главную страницу"></a>
+                        </div>
+                        <div class="tlf">
+                            <ul class="tel">
+                                <li>
+                                    <img src="img/svg/phone.svg" alt="">
+                                    <span>8-0297-177-888</span>
+                                </li>
+                                <li>
+                                    <img src="img/svg/phone.svg" alt="">
+                                    <span>8-0297-177-888</span>
+                                </li>
+                                <li>
+                                    <img src="img/svg/phone.svg" alt="">
+                                    <span>8-0297-177-888</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="search">
+                            <input type="text" placeholder="Найти букет...">
+                            <img src="img/svg/search.svg" alt="">
+                        </div>
+                        <div class="user">
+                            <a href="registration.html"><img src="img/svg/user.svg" alt=""></a>
+                            <img src="img/svg/like.svg" alt="">
+                            <div class="elem">
+                                <img src="img/svg/shopping-bag.svg" alt="">
+                                Пусто
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="page-content"> <!--Содержимое страницы-->
+            <div class="slider-and-dots">
+                <div class="slider">
+                    <div>
+                        <div class="item" id="showing">
+                            <img src="img/flower.jpg" alt="Первый слайд">
+                            <div class="slideText">
+                                <div class="slideTextCol">
+                                    <div class="text">
+                                        <span>Дарим красоту и хорошее настроение вашему дому<br></span>
+                                        <span>Специально для вас — быстрая доставка и отличные цены</span>
+                                    </div>
+                                    <div class="slide-btn">Заказать букет</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/flowerRev.jpg" alt="Второй слайд">
+                            <div class="slideText">
+                                <div class="slideTextCol">
+                                    <div class="text">
+                                        <span>Дарим красоту и хорошее настроение вашему дому<br></span>
+                                        <span>Специально для вас — быстрая доставка и отличные цены</span>
+                                    </div>
+                                    <div class="slide-btn">Заказать букет</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/flower.jpg" alt="Третий слайд">
+                            <div class="slideText">
+                                <div class="slideTextCol">
+                                    <div class="text">
+                                        <span>Дарим красоту и хорошее настроение вашему дому<br></span>
+                                        <span>Специально для вас — быстрая доставка и отличные цены</span>
+                                    </div>
+                                    <div class="slide-btn">Заказать букет</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/flowerRev.jpg" alt="Четвертый слайд">
+                            <div class="slideText">
+                                <div class="slideTextCol">
+                                    <div class="text">
+                                        <span>Дарим красоту и хорошее настроение вашему дому<br></span>
+                                        <span>Специально для вас — быстрая доставка и отличные цены</span>
+                                    </div>
+                                    <div class="slide-btn">Заказать букет</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/flower.jpg" alt="Пятый слайд">
+                            <div class="slideText">
+                                <div class="slideTextCol">
+                                    <div class="text">
+                                        <span>Дарим красоту и хорошее настроение вашему дому<br></span>
+                                        <span>Специально для вас — быстрая доставка и отличные цены</span>
+                                    </div>
+                                    <div class="slide-btn">Заказать букет</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="prev" onclick="minusSlide()"><img src="img/svg/arrowl.svg" alt=""></a>
+                    <a class="next" onclick="plusSlide()"><img src="img/svg/arrowr.svg" alt=""></a>
+                </div>
+                <div class="slider-dots">
+                    <span class="slider-dots_item"  onclick="currentxSlide(1)"></span> 
+                    <span class="slider-dots_item" onclick="currentxSlide(2)"></span> 
+                    <span class="slider-dots_item" onclick="currentxSlide(3)"></span> 
+                    <span class="slider-dots_item" onclick="currentxSlide(4)"></span> 
+                    <span class="slider-dots_item" onclick="currentxSlide(5)"></span> 
+                </div>
+            </div> 
+            <div class="flowers">
+                <div class="container">
+                    <div class="flow">
+                        <div class="flower flower-item-1">
+                            <img src="img/svg/iconbuk.svg" alt="">
+                            Букеты
+                        </div>
+                        <div class="flower flower-item-2">
+                            <img src="img/svg/iconbuk.svg" alt="">
+                            Букеты
+                        </div>
+                        <div class="flower flower-item-3">
+                            <img src="img/svg/iconbuk.svg" alt="">
+                            Букеты
+                        </div>
+                        <div class="flower flower-item-4">
+                            <img src="img/svg/iconbuk.svg" alt="">
+                            Букеты
+                        </div>
+                        <div class="flower flower-item-5">
+                            <img src="img/svg/iconbuk.svg" alt="">
+                            Букеты
+                        </div>
+                        <div class="flower flower-item-6">
+                            <img src="img/svg/iconbuk.svg" alt="">
+                            Букеты
+                        </div>
+                        <div class="flower flower-item-7">
+                            <img src="img/svg/iconbuk.svg" alt="">
+                            Букеты
+                        </div>
+                        <div class="flower flower-item-8">
+                            <img src="img/svg/iconbuk.svg" alt="">
+                            Букеты
+                        </div>
+                        <div class="flower flower-item-9">
+                            <img src="img/svg/iconbuk.svg" alt="">
+                            Букеты
+                        </div>
+                        <div class="flower flower-item-10">
+                            <img src="img/svg/iconbuk.svg" alt="">
+                            Букеты
+                        </div>
+                        <div class="flower flower-item-11">
+                            <img src="img/svg/iconbuk.svg" alt="">
+                            Букеты
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_flowers">
+                <div class="container">
+                    <div class="head-card">
+                        <div class="fl-title">
+                            <h2>Специальное предложение</h2>
+                            <span><span class="red-col">*</span>На товары раздела скидка не распространяется</span>
+                        </div>
+                        <a href="#" title="Посмотреть все товары"> Перейти в каталог <img src="img/svg/arrowr.svg" alt="Перейти"></a>
+                    </div>           
+                    <div class="cards">
+                        <div class="card card-1">
+                            <div class="img-title">
+                                <img src="img/fl1.jpg" alt="Фото товара">
+                                <span class="podp">
+                                    Букет "Счастье"
+                                    <span class="price">125 BYN</span>
+                            </span>
+                            </div>
+                            <div class="btn-buy">
+                                <a class="card-btn" href="#">Заказать</a>
+                                <a class="buy" href="#">Купить в 1 клик</a>
+                            </div> 
+                        </div>
+                        <div class="card card-2">
+                            <div class="img-title">
+                                <img src="img/fl1.jpg" alt="Фото товара">
+                                <span class="podp">
+                                    Букет "Счастье"
+                                    <span class="price">125 BYN</span>
+                            </span>
+                            </div>
+                            <div class="btn-buy">
+                                <a class="card-btn" href="#">Заказать</a>
+                                <a class="buy" href="#">Купить в 1 клик</a>
+                            </div> 
+                        </div>
+                        <div class="card card-3">
+                            <div class="img-title">
+                                <img src="img/fl1.jpg" alt="Фото товара">
+                                <span class="podp">
+                                    Букет "Счастье"
+                                    <span class="price">125 BYN</span>
+                            </span>
+                            </div>
+                            <div class="btn-buy">
+                                <a class="card-btn" href="#">Заказать</a>
+                                <a class="buy" href="#">Купить в 1 клик</a>
+                            </div> 
+                        </div>
+                        <div class="card card-4">
+                            <div class="img-title">
+                                <img src="img/fl1.jpg" alt="Фото товара">
+                                <span class="podp">
+                                    Букет "Счастье"
+                                    <span class="price">125 BYN</span>
+                            </span>
+                            </div>
+                            <div class="btn-buy">
+                                <a class="card-btn" href="#">Заказать</a>
+                                <a class="buy" href="#">Купить в 1 клик</a>
+                            </div> 
+                        </div>
+                        <div class="card card-5">
+                            <div class="img-title">
+                                <img src="img/fl1.jpg" alt="Фото товара">
+                                <span class="podp">
+                                    Букет "Счастье"
+                                    <span class="price">125 BYN</span>
+                            </span>
+                            </div>
+                            <div class="btn-buy">
+                                <a class="card-btn" href="#">Заказать</a>
+                                <a class="buy" href="#">Купить в 1 клик</a>
+                            </div> 
+                        </div>
+                        <div class="card card-6">
+                            <div class="img-title">
+                                <img src="img/fl1.jpg" alt="Фото товара">
+                                <span class="podp">
+                                    Букет "Счастье"
+                                    <span class="price">125 BYN</span>
+                            </span>
+                            </div>
+                            <div class="btn-buy">
+                                <a class="card-btn" href="#">Заказать</a>
+                                <a class="buy" href="#">Купить в 1 клик</a>
+                            </div> 
+                        </div>
+                        <div class="card card-7">
+                            <div class="img-title">
+                                <img src="img/fl1.jpg" alt="Фото товара">
+                                <span class="podp">
+                                    Букет "Счастье"
+                                    <span class="price">125 BYN</span>
+                            </span>
+                            </div>
+                            <div class="btn-buy">
+                                <a class="card-btn" href="#">Заказать</a>
+                                <a class="buy" href="#">Купить в 1 клик</a>
+                            </div> 
+                        </div>
+                        <div class="card card-8">
+                            <div class="img-title">
+                                <img src="img/fl1.jpg" alt="Фото товара">
+                                <span class="podp">
+                                    Букет "Счастье"
+                                    <span class="price">125 BYN</span>
+                            </span>
+                            </div>
+                            <div class="btn-buy">
+                                <a class="card-btn" href="#">Заказать</a>
+                                <a class="buy" href="#">Купить в 1 клик</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>    
+            </div>                 
+            <div class="advantages">
+                <div class="ramka">
+                    <h2>С нами выгодно</h2>
+                    <div class="container">
+                        <div class="adv">
+                            <div class="advantage">
+                                <img src="img/svg/oplata.svg" alt="">
+                                <h3>Оплата на сайте</h3>
+                                <p>Оплатить заказ можно наличными, либо банковской картой или через систему ЕРИП</p>
+                            </div>
+                            <div class="advantage">
+                                <img src="img/svg/dostavka.svg" alt="">
+                                <h3>Быстрая доставка</h3>
+                                <p>Мы доставляем ваши заказы в любой день по предварительному согласованию</p>
+                            </div>
+                            <div class="advantage">
+                                <img src="img/svg/map.svg" alt="">
+                                <h3>Доставим в любую точку Беларуси</h3>
+                                <p>Доставка по Беларуси осуществляется в течении рабочего дня, максимум суток в зависимости от получения нами заказа</p>
+                            </div>
+                            <div class="advantage">
+                                <img src="img/svg/brill.svg" alt="">
+                                <h3>Только свежие цветы</h3>
+                                <p>Наш магазин может похвастаться не только огромным выбором композиций, но и ежедневными поставками со всего мира</p>
+                            </div>
+                            <div class="advantage">
+                                <img src="img/svg/znak.svg" alt="">
+                                <h3>10 лет на рынке продажи цветов</h3>
+                                <p>Более 10 лет мы доставляем букеты вашим близким в любые уголки нашей страны и мира, где бы они ни находились</p>
+                            </div>
+                            <div class="advantage">
+                                <img src="img/svg/247.svg" alt="">
+                                <h3>Сервисная служба 24/7</h3>
+                                <p>Служба поддержки работает круглосуточно, и готова 24/7 ответить на любые вопросы</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="about">
+                <h2>Только у нас вы найдете богатый ассортимент цветов</h2>
+                <div class="cont">
+                    <div class="items">
+                        <div class="about-item about-item-1">
+                            <img src="img/about1.jpg" alt="букет цветов" title = "Букет цветов">
+                            <div class="tex-1">
+                                <p>Для заказа необходимо учитывать ваши персональные отношения с адресатом, статус человека, возраст и это только малая часть критериев, по которым наши высококвалифицированные специалисты быстро, качественно и красиво соберут и оформят ваш заказ.</p>
+                                <p>Так, романтичным натурам подойдут букеты в нежной гамме с зелёными и розовыми оттенками. Истинным леди придутся по вкусу букеты с прямыми линиями и строгими формами. Страстная особа обрадуется бордовой гамме цветов, а творческие личности оценят букет из подсолнухов. Традиционные тюльпаны дарят на ставшие привычными праздники — 8 Марта и День учителя. Букет – это молчаливое восхищение. Мы поможем вам выразить чувства.</p>
+                                <p>Надо поздравить любимого человека, а вы в другом городе? Нет проблем! Сотрудники Gvozdika.by сделают это за вас! Достаточно сделать заказ — и интернет-магазин цветов и подарков Gvozdika.by привезёт выбранный вами букет в любой район Минска через час-два с момента заказа,а доставку по Беларуси осуществим в течении суток!</p>
+                            </div>
+                        </div>
+                        <div class="about-item about-item-2">
+                            <div class="tex-2">
+                                <p>Жизнь слишком коротка, чтобы ограничиваться такими праздниками как 8 марта, 14 февраля, день Матери и дни рождения! Наши любимые дамы заслуживают гораздо больше внимания, а аленький цветочек из нашего ассортимента поможет вам в этом Доставка цветов по Минску — ваше лучшее решение!</p>
+                                <p>Если вдруг у вас не получается подарить букет лично, наша гибкая система доставки поможет вам. Создание букета — не простое задание.</p>
+                            </div>
+                            <img src="img/about2.jpg" alt="букет цветов" title = "Букет цветов">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cont">
+                <div class="reviews-title">
+                    <h2>Наши отзывы</h2>
+                    <div class="center">
+                        <div class="wrapper">
+                            <div class="inner">
+                                <div class="cart">
+                                    <div class="review-title">
+                                        <div class="review-img"><img src="img/svg/vera.svg" alt=""></div>
+                                        <div class="review-name-stars">
+                                            <div class="review-name">Вера Иванова</div>
+                                            <div class="review-stars">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/puststar.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="review-text">
+                                        Для меня это самый лучший магазин цветов. Покупаю их исключительно здесь. Цветы тут всегда свежие, а цены весьма демократичные. Неделю назад купила 25 роз сестре на День Рождения. До сих пор прекрасно сохранились. Магазин рекомендую.
+                                    </div>
+                                </div>
+                                <div class="cart">
+                                    <div class="review-title">
+                                        <div class="review-img"><img src="img/svg/vera.svg" alt=""></div>
+                                        <div class="review-name-stars">
+                                            <div class="review-name">Вера Иванова</div>
+                                            <div class="review-stars">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/puststar.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="review-text">
+                                        Для меня это самый лучший магазин цветов. Покупаю их исключительно здесь. Цветы тут всегда свежие, а цены весьма демократичные. Неделю назад купила 25 роз сестре на День Рождения. До сих пор прекрасно сохранились. Магазин рекомендую.
+                                    </div>
+                                </div>
+                                <div class="cart">
+                                    <div class="review-title">
+                                        <div class="review-img"><img src="img/svg/vera.svg" alt=""></div>
+                                        <div class="review-name-stars">
+                                            <div class="review-name">Вера Иванова</div>
+                                            <div class="review-stars">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/puststar.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="review-text">
+                                        Для меня это самый лучший магазин цветов. Покупаю их исключительно здесь. Цветы тут всегда свежие, а цены весьма демократичные. Неделю назад купила 25 роз сестре на День Рождения. До сих пор прекрасно сохранились. Магазин рекомендую.
+                                    </div>
+                                </div>
+                                <div class="cart">
+                                    <div class="review-title">
+                                        <div class="review-img"><img src="img/svg/vera.svg" alt=""></div>
+                                        <div class="review-name-stars">
+                                            <div class="review-name">Вера Иванова</div>
+                                            <div class="review-stars">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/puststar.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="review-text">
+                                        Для меня это самый лучший магазин цветов. Покупаю их исключительно здесь. Цветы тут всегда свежие, а цены весьма демократичные. Неделю назад купила 25 роз сестре на День Рождения. До сих пор прекрасно сохранились. Магазин рекомендую.
+                                    </div>
+                                </div>
+                                <div class="cart">
+                                    <div class="review-title">
+                                        <div class="review-img"><img src="img/svg/vera.svg" alt=""></div>
+                                        <div class="review-name-stars">
+                                            <div class="review-name">Вера Иванова</div>
+                                            <div class="review-stars">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/puststar.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="review-text">
+                                        Для меня это самый лучший магазин цветов. Покупаю их исключительно здесь. Цветы тут всегда свежие, а цены весьма демократичные. Неделю назад купила 25 роз сестре на День Рождения. До сих пор прекрасно сохранились. Магазин рекомендую.
+                                    </div>
+                                </div>
+                                <div class="cart">
+                                    <div class="review-title">
+                                        <div class="review-img"><img src="img/svg/vera.svg" alt=""></div>
+                                        <div class="review-name-stars">
+                                            <div class="review-name">Вера Иванова</div>
+                                            <div class="review-stars">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/star.svg" alt="">
+                                                <img src="img/svg/puststar.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="review-text">
+                                        Для меня это самый лучший магазин цветов. Покупаю их исключительно здесь. Цветы тут всегда свежие, а цены весьма демократичные. Неделю назад купила 25 роз сестре на День Рождения. До сих пор прекрасно сохранились. Магазин рекомендую.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="navig">
+                            <button class="active first"></button>
+                            <button class="second"></button>
+                            <button class="third"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <div class="container">
+                    <h2>Как это работает</h2>
+                    <div class="work-items">
+                        <div class="work-item">
+                            <div class="item-title">
+                                <div class="circle">
+                                    01
+                                </div>
+                                <p>Заказ</p>
+                            </div>
+                            <div class="item-text">
+                                Выбери букет или закажи обратный звонок
+                            </div>
+                        </div>
+                        <div class="work-item">
+                            <div class="item-title">
+                                <div class="circle">
+                                    02
+                                </div>
+                                <p>Оформление и оплата</p>
+                            </div>
+                            <div class="item-text">
+                                Наш менеджер свяжется с вами для уточнения заказа, стоимости и места доставки
+                            </div>
+                        </div>
+                        <div class="work-item">
+                            <div class="item-title">
+                                <div class="circle">
+                                    03
+                                </div>
+                                <p>Доставка</p>
+                            </div>
+                            <div class="item-text">
+                                Мы доставим букет в нужное место и в назначенное время/дату
+                            </div>
+                        </div>
+                        <div class="work-item">
+                            <div class="item-title">
+                                <div class="circle">
+                                    04
+                                </div>
+                                <p>Отзыв</p>
+                            </div>
+                            <div class="item-text">
+                                Будем рады отзыву от вас о нашей работе
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="instagram">
+                <div class="inst">
+                    <div class="inst-header">
+                        <h2>Мы в Instagram</h2>
+                        <a href="#">@gvozdika_by</a>
+                    </div>
+                    <div class="container">
+                        <div class="photos">
+                            <img src="img/inst1.jpg" alt="Фото">
+                            <img src="img/inst1.jpg" alt="Фото">
+                            <img src="img/inst1.jpg" alt="Фото">
+                            <img src="img/inst1.jpg" alt="Фото">
+                            <img src="img/svg/arrowr.svg" alt="Перейти" id="arrow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map"> <!--Подключение карты-->
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Abb016711f104f7d14929459f68ba24ce864faa8e5dd63048c92ff32fbbf462a5&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+        </div>
+        <footer>  <!--Подвал-->
+            <div class="container">
+                <div class="footer-top">
+                    <div class="footer-logo">
+                        <a href="#"><img src="img/svg/logo.svg" alt="Логотип"></a>
+                    </div>
+                </div>
+                <div class="footer-middle">
+                    <div class="phone-icons">
+                        <ul>
+                            <li>
+                                <img src="img/svg/phone.svg" alt="">
+                                <span>8-0297-177-888</span>
+                            </li>
+                            <li>
+                                <img src="img/svg/phone.svg" alt="">
+                                <span>8-0297-177-888</span>
+                            </li>
+                            <li>
+                                <img src="img/svg/phone.svg" alt="">
+                                <span>8-0297-177-888</span>
+                            </li>
+                        </ul>
+                        <div class="icns">
+                            <a href="#"><img src="img/svg/inst.svg" alt="Instagram" title = "Перейти в Instagram"></a>
+                            <a href="#"><img src="img/svg/vk.svg" alt="VK" title = "Перейти в VK"></a>
+                            <a href="#"><img src="img/svg/tg.svg" alt="Telegram" title = "Перейти в Telegram"></a>
+                            <a href="#"><img src="img/svg/whtsp.svg" alt="Whatsapp" title = "Перейти в Whatsapp"></a>
+                        </div>
+                    </div>
+                    <div class="categories">
+                        <ul>
+                            <li>
+                                <a href="#">Букеты</a>
+                            </li>
+                            <li>
+                                <a href="#">Монобукеты</a>
+                            </li>
+                            <li>
+                                <a href="#">Уличные растения</a>
+                            </li>
+                            <li>
+                                <a href="#">Розы</a>
+                            </li>
+                            <li>
+                                <a href="#">Подарки</a>
+                            </li>
+                            <li>
+                                <a href="#">Срезанные цветы</a>
+                            </li>
+                            <li>
+                                <a href="#">Конфеты</a>
+                            </li>
+                            <li>
+                                <a href="#">Композиции</a>
+                            </li>
+                            <li>
+                                <a href="#">Свадебные букеты</a>
+                            </li>
+                            <li>
+                                <a href="#">Воздушные шары</a>
+                            </li>
+                            <li>
+                                <a href="#">Комнатные растения</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sections">
+                        <ul>
+                            <li><a href="#">О магазине</a></li>
+                            <li><a href="#">Организациям</a></li>
+                            <li><a href="#">Доставка</a></li>
+                            <li><a href="#">Оплата</a></li>
+                            <li><a href="#">Гарантии</a></li>
+                            <li><a href="#">Возврат</a></li>
+                            <li><a href="#">Блог</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Помощь</a></li>
+                        </ul>
+                    </div>
+                    <div class="form-address">
+                        <div class="form">
+                            <span>Будь в курсе самых лучших предложений и свежих новостей</span>
+                            <div class="input-btn">
+                                <input type="email" placeholder="Введите электронную почту">
+                                <div class="form-btn">Подписаться</div>
+                            </div>
+                        </div>
+                        <div class="address">
+                            <ul>
+                                <li>г. Минск, ул. Ленина, д.46, пом.3</li>
+                                <li>zakaz@gvozdika.by</li>
+                                <li>Пн-Пт с 8.00-22.00<br>Сб-Вс с 10.00 -22.00</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="copyright">
+                        <div class="razr">
+                            <span>Разработка сайта</span>
+                            <div class="img-recode">
+                                <img src="img/svg/recode.svg" alt="Recode">
+                                <span>Recode.Monster</span>
+                            </div>
+                        </div>
+                        <div class="cpright-polit-sogl">
+                            <span>Политика конфиденциальности</span>
+                            <span>Пользовательское соглашение</span>
+                            <span>&#169; Gvozdika.by 2017 - 2021</span>
+                        </div>
+                    </div> 
+                    <div class="info">
+                        <span>ООО "Трансстиль-Групп" УНП: 190929286, юридический адрес: 220030, г. Минск, ул. Ленина, д.46, пом.3</span>
+                        <span>Дата регистрации интернет-магазина в Торговом реестре: 07 апреля 2015г. №156730</span>
+                        <span>Свидетельство о гос. регистрации №190929286 от 18.12.2007</span>
+                    </div>      
+                </div>
+            </div>                      
+        </footer>
+        <div class="payment">
+            <div class="container">
+                <div class="payment-row">
+                    <img src="img/svg/mscardsecure.svg" alt="Mastercard Secure code">
+                    <img src="img/svg/erip.svg" alt="Erip">
+                    <img src="img/svg/mtbank.svg" alt="MTBank">
+                    <img src="img/svg/verifvisa.svg" alt="Verified by Visa">
+                    <img src="img/svg/belcard.svg" alt="Belcard">
+                    <img src="img/svg/visa.svg" alt="Visa">
+                    <img src="img/svg/mscard.svg" alt="Mastercard">
+                    <img src="img/svg/ipay.svg" alt="Ipay">
+                    <img src="img/svg/webmoney.svg" alt="Webmoney">
+                    <img src="img/svg/bepaid.svg" alt="BePaid">
+                </div>
+            </div>
+        </div>
+        <div class="popup">
+            <div class="popup_body">
+            <button id="close">&times;</button>
+            <img class="img-popup" src="img/dost.jpg" alt="Изображение">
+            </div>
+        </div>
+        <!-- модальное окно -->
+        <script src="js/popup-script.js"></script>
+        <!-- Скрипт для кнопки наверх -->
+        <button class="scroll-to-top"><i class="fa fa-arrow-up"><img src="img/svg/Arrow.svg" alt=""></i></button>
+        <script src="js/scroll-to-top.js"></script>
+        <script src="js/Slider.js"></script>
+        <script src="js/carousel.js"></script>
+    </body>
+</html>

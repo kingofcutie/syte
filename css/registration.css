@@ -1,0 +1,150 @@
+/* сброс некоторых настроек */
+
+h1,h2,h3,h4,h5,h6,p{
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+p+p{
+    margin-top: 1em;
+}
+
+ul{
+    list-style: none;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: #333333;
+}
+
+*,
+*::before,
+*::after{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Form */
+
+input, textarea, button, select{
+    font-family: inherit;
+    font-size: inherit;
+}
+
+input::-ms-clear{
+    display: none;
+}
+
+button, input[type="sumbit"]{
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active{
+    outline: none;
+}
+
+button::-moz-focus-inner{
+    padding: 0;
+    border: 0;
+}
+
+label{
+    cursor: pointer;
+}
+
+legend{
+    display: block;
+}
+
+body{
+    max-width: 580px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #CFCFCF;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+.reg{
+    display: flex;
+    flex-direction: column;
+    gap:35px;
+}
+
+.exit{
+    margin-top: 24px;
+    margin-left: 544px;
+    width:12px;
+    height: 12px;
+}
+
+.lbl{
+    font-size: 36px;
+    color: #03453B;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    border: 1px solid #BABABA;
+    border-radius: 4px;
+    width: 440px;
+    height: 50px;
+    line-height: 17px;
+    padding-left: 16px;
+}
+
+.btn{
+    width: 440px;
+    height: 52px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #03453B;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #EBEBEB;
+    padding-left: 122.5px;
+    padding-top: 15px;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+
+.leaves{
+    position: absolute;
+    width: 132.5px;
+    height: 76px;
+}
+
+.dots{
+    position: absolute;
+    width: 36px;
+    height: 47px;
+    left: 544.11px;
+    top: 609px;
+    transform: rotate(23.98deg);
+}
